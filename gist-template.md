@@ -1,10 +1,11 @@
-# Title (replace with your title)
+# Regex: What is it?
 
-Introductory paragraph (replace this with your text)
-
+Regex or regular expressions are a sequence of characters that form a search pattern. They are used to match character combinations in strings. For example; you can test a string for a character to verify that a phone number is valid.
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+The regex code that I will be describing for you here is 
+(\W|^)po[#\-]{0,1}\s{0,1}\d{2}[\s-]{0,1}\d{4}(\W|$) 
+This is a regular expression that matches and alphanumeric format, so it can match order numbers for example.
 
 ## Table of Contents
 
@@ -24,7 +25,14 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ### Anchors
 
+Anchors tell the computer when the regex starts and ends so that it knows what sit's looking for
+^ = tells the computer this is the beginning of the of the expression.
+$ = tells the computer this is the end of the expression.
+
 ### Quantifiers
+
+Quantifies specify for the computer how many instances of a character, group, or class should be present for the expression to find it.
+The quantifiers in this expression include = 
 
 ### OR Operator
 
