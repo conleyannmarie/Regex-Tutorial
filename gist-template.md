@@ -76,8 +76,15 @@ A word boundary, in most regex dialects, is a position between \w and \W (non-wo
 
 ### Back-references
 
+Back references are commands that refer to previous sections of the of th expression They are specified with a backslash and a single digit like so; \2. There is none used in this expression.
+
 ### Look-ahead and Look-behind
+
+This is a syntax that is used to find matches for a pattern that is followed and or proceeded by another pattern. This is also called collectively a lookaround.
+The syntax for a look ahead is: ```X(?=Y)```, it means "look for X, but match only if followed by Y".
+The look behind is ```(?<=Y)X``` 
+Our regex does not use this either.
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+The Author is Conley Marie. Github: https://github.com/conleyannmarie
