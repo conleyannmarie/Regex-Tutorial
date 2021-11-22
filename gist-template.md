@@ -72,6 +72,8 @@ Bracket expressions are a list of characters enclosed by ‘[’ and ‘]’. It
 
 ### Boundaries
 
+A word boundary, in most regex dialects, is a position between \w and \W (non-word char), or at the beginning or end of a string if it begins or ends (respectively) with a word character.
+
 ### Back-references
 
 ### Look-ahead and Look-behind
