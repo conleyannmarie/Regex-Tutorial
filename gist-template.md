@@ -53,9 +53,14 @@ A character class is a special notation that matches any symbol from the set. Th
 
 ### Flags
 
-
+Flags are tokens that modify the expressions behavior of the search. This expression has no flags but I will include an example.
+```i``` is ignore casing, it makes the expression search case-insensitively.
 
 ### Grouping and Capturing
+
+Capturing groups is what is used to mark multiple characters into a group or unit. You can use this to apply modifers to them. 
+The ones used in this expression are:
+```(\W|^)``` and ```(\W|$)```
 
 ### Bracket Expressions
 
