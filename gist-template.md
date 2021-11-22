@@ -64,7 +64,11 @@ The ones used in this expression are:
 
 ### Bracket Expressions
 
+Bracket expressions are a list of characters enclosed by ‘[’ and ‘]’. It matches any single character in that list. There are none used in this regex
+
 ### Greedy and Lazy Match
+
+
 
 ### Boundaries
 
