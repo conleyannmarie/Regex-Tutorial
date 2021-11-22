@@ -4,7 +4,7 @@ Regex or regular expressions are a sequence of characters that form a search pat
 ## Summary
 
 The regex code that I will be describing for you here is 
-(\W|^)po[#\-]{0,1}\s{0,1}\d{2}[\s-]{0,1}\d{4}(\W|$) 
+'''(\W|^)po[#\-]{0,1}\s{0,1}\d{2}[\s-]{0,1}\d{4}(\W|$)'''
 This is a regular expression that matches and alphanumeric format, so it can match order numbers for example.
 
 ## Table of Contents
@@ -26,15 +26,17 @@ This is a regular expression that matches and alphanumeric format, so it can mat
 ### Anchors
 
 Anchors tell the computer when the regex starts and ends so that it knows what sit's looking for
-^ = tells the computer this is the beginning of the of the expression.
-$ = tells the computer this is the end of the expression.
+'''^''' = tells the computer this is the beginning of the of the expression.
+'''$''' = tells the computer this is the end of the expression.
 
 ### Quantifiers
 
 Quantifies specify for the computer how many instances of a character, group, or class should be present for the expression to find it.
-The quantifiers in this expression include = 
+The quantifiers in this expression include = '''{0,1}''' this means it needs to Match from 0 to 1 times, '''{2}''' which means it needs to match exactly 2 times, '''{4}''' which means it needs to match exactly 4 times
 
 ### OR Operator
+
+The OR Operator, also know as the alternation (also not called O.R., it is called or). It is written with '''|'''. There is two in this expression one at the beginning and at the end
 
 ### Character Classes
 
