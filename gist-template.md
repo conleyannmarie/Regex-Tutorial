@@ -68,7 +68,7 @@ Bracket expressions are a list of characters enclosed by ‘[’ and ‘]’. It
 
 ### Greedy and Lazy Match
 
-
+'Greedy' means to match the longest possible string, the expression will find every exact character you tell it to. and 'Lazy' means to match the shortest possible string. Adding a ```?``` makes it optional and therefore lazy. We have no lazy matches in our expression. We have several greedy matches; for example; ```{0,1}``` it will find this exact match.
 
 ### Boundaries
 
